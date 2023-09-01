@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Document</title>
+</head>
+<body class="m-4">
+    
+    <h5>Border</h5>
+
+    <div class="mb-4 mx-auto w-50">
+        <label class="form-label" for="Email">Email Address</label>
+        <input type="email" id="Email" placeholder="Enter Email"
+        class=" form-control border-success">
+    </div>
+    <p class="mb-4 h4 pb-2 border-bottom border-danger display-4 
+    border-opacity-20 text-danger border-4 border-top border-top-2"
+    style="--bs-border-opacity: .5;">Dangerous heading</p>
+
+    <p class="p-4 border border-start-0 bg-info-subtle rounded-bottom-5 
+    border-info shadow-lg" >Changin border color and width</p>
+
+    <div class="badge bg-primary text-wrap" style="width: 6rem;">
+        This text should wrap.
+      </div>
+
+    <!-- <div class="border border-success p-2 mb-2">This is default success border</div>
+<div class="border border-success p-2 mb-2 border-opacity-75">This is 75% opacity success border</div>
+<div class="border border-success p-2 mb-2 border-opacity-50">This is 50% opacity success border</div>
+<div class="border border-success p-2 mb-2 border-opacity-25">This is 25% opacity success border</div>
+<div class="border border-success p-2 border-opacity-10">This is 10% opacity success border</div> -->
+
+        <button class="btn btn-primary position-relative me-4">Mail
+            <small class="position-absolute start-100 top-0 bg-secondary px-2 rounded-pill 
+            translate-middle ">99+</small>
+        </button>
+        <button type="button" class="btn btn-primary position-relative me-4">Alerts
+            <span class="position-absolute top-0 start-100 translate-middle
+            badge border border-white bg-danger p-2 rounded-circle  
+              ">
+            <span class="visually-hidden">unread messages</span></span>
+        </button>
+
+        <button type="button" class="btn btn-primary position-relative order-first">
+            Alerts <span class="position-absolute top-0 start-100 translate-middle 
+            badge border border-light  bg-danger p-2">
+                <span class="visually-hidden">unread messages</span></span>
+          </button>
+
+        <div class="bg-secondary position-relative rounded-pill px-4 m-5
+        d-inline py-2 text-white">
+            Marker
+            <div class="w-25 h-25 bg-success d-inline position-absolute
+            top-100 translate-middle-x start-50 "></div>
+        </div>
+
+    <div class="d-flex mt-4">
+        <p class="flex-fill order-3">Lorem  adipisicing elit. Delectus, saepe?</p>
+        <p class="flex-fill order-2">Lorem  dolor sit amet.</p>
+        <p class="flex-fill ">Lorem  dolor sit amet.</p>
+    </div>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
