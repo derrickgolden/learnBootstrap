@@ -1,21 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
-    <style>
-        [class^="col"]{
-            /* background-color: rgb(191, 145, 235); */
-            /* border: 1px solid rgb(226, 135, 135); */
-        }
-    </style>
-</head>
-<body>
-    <h1>Hello bootstrap</h1>
-    
-    <div class="container">
+`
+<div class="container">
       <div class="row row-cols-1 row-cols-sm-3 g-5">
         <div class="col">
           <div class="card">
@@ -55,6 +39,4 @@
         </div>
       </div>
     </div>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
-</body>
-</html>
+    `
